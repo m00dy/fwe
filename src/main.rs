@@ -42,7 +42,6 @@ fn main() {
                                 .stdout(Stdio::piped())
                                 .spawn()
                                 .expect("failed to execute process");
-                            //println!("{:?}", output);
                         }
                     }
                     _ => {}
